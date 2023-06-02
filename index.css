@@ -1,0 +1,193 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* common style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* start header style */
+.container-header{
+    display: flex;
+    width: 1200px;
+    height: 600px;
+    margin: 30px auto;
+    background: #161616;
+    border-radius: 30px;
+    color: white;
+}
+.header-title{
+    font-size: 70px;
+    line-height: 80px;
+}
+.header-para{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.header-btn{
+    width: 187px;
+    height: 56px;
+    font-size: 20px;
+    color: #fff;
+    margin: 20px 0;
+    background: #DD0000;
+    border-radius: 5px;
+}
+.header-article{
+    margin-top: 100px;
+    margin-left: 80px;
+}
+.header-img img{
+    width: 581px;
+    height: 580px;
+    margin: 20px;
+    padding:0 20px;
+
+}
+/* said men style start */
+.said-menu{
+    width: 312px;
+    height: 312px;
+    margin-top: 30px;
+    margin-left: 48px;
+    background: #161616;
+    border-radius: 10px;
+}
+.main--section{
+    display: flex;
+    width: 1200px;
+}
+
+.said-menu .menu-btn1, .menu-btn2, .menu-btn3{
+    width: 252px;
+    height: 64px; 
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin-top: 30px; 
+    margin-left: 10px;
+    margin-right: 10px;      
+}
+.said-menu .menu-btn3{
+    background: #DD0000;
+}
+/* ssaid menu end */
+
+
+/* main-blog-section stye */
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 318px);
+    grid-column-gap: 5px;
+    grid-template-rows: repeat(3, 362px);
+    margin: 30px 10px;
+    grid-row-gap: 20px;
+    
+}
+.blog-imgs{
+    width: 312px;
+    height: 362px;
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+.blog-article{
+    padding: 15px;
+}
+.blog-btn{
+    width: 100px;
+    height: 32px;
+    font-size: 16px;
+    color: #161616;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.blog-para{
+    font-size: 18px;
+    line-height: 27px;
+    color: #161616;
+   
+}
+.blog-icon .icon{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.blog-icon span{
+    padding-left:5px ;
+} 
+/* world-cup-footer stye start */
+.world-cup-footer{
+    width: 100%;
+    height: 444px;
+    background: #161616;
+}
+.goal{
+    font-weight: 600;
+    font-size: 40px;
+    color: #fff;
+    padding-top:120px;
+    padding-bottom: 20px;
+    padding-left: 45%;
+}
+hr{
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.list-footer{
+   text-align: center;
+}
+.list-footer a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #B9B9B9;
+    padding-left: 20px;
+
+}
+.footer-socialIcon{
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 5px;
+   
+    
+}
+
+
+/* Media Query */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .container-header{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin-top: 44px;
+        margin-left: 21px;
+        margin-left: 21px;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
